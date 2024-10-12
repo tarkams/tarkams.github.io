@@ -1,1 +1,0 @@
-import{w as i}from"./index.DVS4f1bB.js";const o=typeof window<"u";function r(t,n){const s=i(n,()=>{if(o){const e=localStorage.getItem(t);e&&s.set(JSON.parse(e))}return()=>{}});return o&&s.subscribe(e=>{localStorage.setItem(t,JSON.stringify(e))}),s}const c=r("isLoggedIn",!1),f=r("username","");export{c as i,f as u};

@@ -1,1 +1,0 @@
-import{u as r,d as e,e as c,g as i,i as a,j as l,k as u,l as _}from"./runtime.CkuHu-5U.js";function g(){const s=c,n=s.l.u;n&&(n.b.length&&r(()=>{f(s),a(n.b)}),e(()=>{const o=i(()=>n.m.map(_));return()=>{for(const t of o)typeof t=="function"&&t()}}),n.a.length&&e(()=>{f(s),a(n.a)}))}function f(s){if(s.l.s)for(const n of s.l.s)l(n);u(s.s)}export{g as i};
