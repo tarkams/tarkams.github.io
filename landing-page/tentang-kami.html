@@ -1,91 +1,350 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta http-equiv="content-security-policy" content="default-src *; frame-src 'self' https://accounts.google.com; connect-src 'self' https://*.hotjar.com https://*.hotjar.io https://dev.tarkams.com:81; font-src 'self' https://fonts.googleapis.com https://fonts.gstatic.com https://*.hotjar.com; img-src 'self' https://*.hotjar.com https://*.hotjar.io wss://*.hotjar.com; script-src 'unsafe-eval' 'self' 'unsafe-inline' https://accounts.google.com https://*.hotjar.com https://*.hotjar.io https://dev.tarkams.com:81 'sha256-z5lVKBwKe8KjeAB567CYiQoN/wHRji5G2V48Ks928XI='; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://*.hotjar.com https://accounts.google.com">
-		<link href="../_app/immutable/assets/0.83kV40cI.css" rel="stylesheet">
-		<link rel="modulepreload" href="../_app/immutable/entry/start.DosobFdw.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/entry.CjL3Zh2R.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/index-client.CsTE1Uhu.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/runtime.CG4-oO5L.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/index.D9OYEmtO.js">
-		<link rel="modulepreload" href="../_app/immutable/entry/app.BHLYVRw1.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/render.BHSoGeU3.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/events.2Mc6L6Su.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/disclose-version.MfCLdoVM.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/if.DGPxoUpt.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/props.CTgrqZ0U.js">
-		<link rel="modulepreload" href="../_app/immutable/nodes/0.Da55vrwd.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/misc.BSOkscdB.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/lifecycle.hj5Ovsor.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/stores.ChNrtpb5.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/user.AlDn9NF3.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/index.4z16PX5m.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/each.Bgj3sZhW.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/class.DqVHrLnQ.js">
-		<link rel="modulepreload" href="../_app/immutable/nodes/8.DvYB66Ff.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/filled-button.BioNeX4X.js"><!--[--><meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1"> <link rel="icon" href="/favicon.ico"> <link rel="preconnect" href="https://fonts.googleapis.com"> <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous"> <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&amp;display=swap" rel="stylesheet"> <script async defer="" src="https://accounts.google.com/gsi/client"></script><!--]--><!--[--><meta title="tarkams" name="tarkams" content="tarkams"><!--]--><title>tarkams</title>
+    <meta
+      http-equiv="content-security-policy"
+      content="default-src *; frame-src 'self' https://accounts.google.com; connect-src 'self' https://*.hotjar.com https://*.hotjar.io https://dev.tarkams.com:81; font-src 'self' https://fonts.googleapis.com https://fonts.gstatic.com https://*.hotjar.com; img-src 'self' https://*.hotjar.com https://*.hotjar.io wss://*.hotjar.com; script-src 'unsafe-eval' 'self' 'unsafe-inline' https://accounts.google.com https://*.hotjar.com https://*.hotjar.io https://dev.tarkams.com:81 'sha256-z5lVKBwKe8KjeAB567CYiQoN/wHRji5G2V48Ks928XI='; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://*.hotjar.com https://accounts.google.com"
+    />
+    <link href="../_app/immutable/assets/0.83kV40cI.css" rel="stylesheet" />
+    <link
+      rel="modulepreload"
+      href="../_app/immutable/entry/start.DosobFdw.js"
+    />
+    <link
+      rel="modulepreload"
+      href="../_app/immutable/chunks/entry.CjL3Zh2R.js"
+    />
+    <link
+      rel="modulepreload"
+      href="../_app/immutable/chunks/index-client.CsTE1Uhu.js"
+    />
+    <link
+      rel="modulepreload"
+      href="../_app/immutable/chunks/runtime.CG4-oO5L.js"
+    />
+    <link
+      rel="modulepreload"
+      href="../_app/immutable/chunks/index.D9OYEmtO.js"
+    />
+    <link rel="modulepreload" href="../_app/immutable/entry/app.BHLYVRw1.js" />
+    <link
+      rel="modulepreload"
+      href="../_app/immutable/chunks/render.BHSoGeU3.js"
+    />
+    <link
+      rel="modulepreload"
+      href="../_app/immutable/chunks/events.2Mc6L6Su.js"
+    />
+    <link
+      rel="modulepreload"
+      href="../_app/immutable/chunks/disclose-version.MfCLdoVM.js"
+    />
+    <link rel="modulepreload" href="../_app/immutable/chunks/if.DGPxoUpt.js" />
+    <link
+      rel="modulepreload"
+      href="../_app/immutable/chunks/props.CTgrqZ0U.js"
+    />
+    <link rel="modulepreload" href="../_app/immutable/nodes/0.Da55vrwd.js" />
+    <link
+      rel="modulepreload"
+      href="../_app/immutable/chunks/misc.BSOkscdB.js"
+    />
+    <link
+      rel="modulepreload"
+      href="../_app/immutable/chunks/lifecycle.hj5Ovsor.js"
+    />
+    <link
+      rel="modulepreload"
+      href="../_app/immutable/chunks/stores.ChNrtpb5.js"
+    />
+    <link
+      rel="modulepreload"
+      href="../_app/immutable/chunks/user.AlDn9NF3.js"
+    />
+    <link
+      rel="modulepreload"
+      href="../_app/immutable/chunks/index.4z16PX5m.js"
+    />
+    <link
+      rel="modulepreload"
+      href="../_app/immutable/chunks/each.Bgj3sZhW.js"
+    />
+    <link
+      rel="modulepreload"
+      href="../_app/immutable/chunks/class.DqVHrLnQ.js"
+    />
+    <link rel="modulepreload" href="../_app/immutable/nodes/8.DvYB66Ff.js" />
+    <link
+      rel="modulepreload"
+      href="../_app/immutable/chunks/filled-button.BioNeX4X.js"
+    />
+    <!--[-->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&amp;display=swap"
+      rel="stylesheet"
+    />
+    <script
+      async
+      defer=""
+      src="https://accounts.google.com/gsi/client"
+    ></script>
+    <!--]-->
+    <!--[-->
+    <meta title="tarkams" name="tarkams" content="tarkams" />
+    <!--]-->
+    <title>tarkams</title>
   </head>
   <body data-sveltekit-preload-data="hover">
-    <div><!--[--><!--[--><!----><div class="flex justify-center mb-24 overflow-x-hidden"><!----><div class="fixed max-w-[768px] w-full h-full bg-white"></div><!----> <div class="max-w-[768px] w-full bg-white"><!----><div class="absolute z-50 w-full max-w-[768px]"><div class="p-4 justify-between h-16"><!--[!--><div class="flex items-center w-full relative"><!--[--><button class="text-primary absolute left-0"><svg width="1em" height="1em" viewBox="0 0 16 16" style="color: currentColor;" stroke-width="0" fill="currentColor" stroke="currentColor" xmlns="http://www.w3.org/2000/svg"><!----><path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0"></path><!----></svg><!----></button><!--]--> <h1 class="text-primary flex-grow text-center">tarkams</h1></div><!--]--></div></div><!----> <main class="relative mb-48 mt-16"><!----><!----><!----><div class="relative flex flex-col items-center p-8"><div class="flex flex-col space-y-16 items-center max-w-4xl"><div class="flex flex-col items-center space-y-4"><h1 class="text-5xl font-bold text-center">Tentang Kami</h1></div> <div class="rounded-lg drop-shadow bg-white p-8 w-full"><h2 class="text-2xl font-semibold text-primary mb-4">Ringkasan Eksekutif</h2> <p class="mb-4">tarkams adalah platform matchmaking olahraga yang awalnya berfokus pada
-        tenis dan akan terus berkembang ke olahraga lain. Di sini, kamu bisa
-        membuat dan bergabung dalam pertandingan, berkompetisi di liga, serta
-        mengumpulkan diamond yang bisa kamu tukarkan dengan hadiah menarik.</p> <p class="mb-4">tarkams bertujuan untuk membuat olahraga jadi lebih seru, kompetitif,
-        dan menguntungkan. Kami ingin mengubah cara pemain amatir menikmati
-        olahraga kesukaan mereka, sekaligus memberikan kesempatan untuk
-        mendapatkan reward lewat model langganan bagi pengguna gratis dan
-        berbayar.</p></div> <div class="rounded-lg drop-shadow bg-white p-8 w-full"><h2 class="text-2xl font-semibold text-primary mb-4">Visi dan Misi</h2> <h3 class="text-xl font-semibold mb-2">Visi</h3> <p class="mb-4">Menjadi platform utama yang menghubungkan atlet rekreasional, memberikan
-        ruang tidak hanya untuk bertanding, tapi juga untuk mendapatkan hadiah,
-        meningkatkan kemampuan, dan berpartisipasi dalam komunitas olahraga.</p> <h3 class="text-xl font-semibold mb-2">Misi</h3> <p>Menciptakan lingkungan olahraga yang berkelanjutan dan inklusif di mana
-        semua pemain, baik pemula maupun berpengalaman, bisa terhubung,
-        berkompetisi, dan mencapai pertumbuhan melalui olahraga.</p></div> <div class="rounded-lg drop-shadow bg-white p-8 w-full"><h2 class="text-2xl font-semibold text-primary mb-4">Masalah yang Dihadapi</h2> <p class="mb-4">Banyak penggemar olahraga amatir yang kesulitan mencari lawan tanding
-        yang selevel, terutama di wilayah seperti Indonesia, di mana turnamen
-        dan liga belum banyak tersedia. Solusi yang ada saat ini juga sering
-        kali tidak memberikan insentif atau hadiah yang berarti untuk
-        partisipasi rutin.</p> <ul class="list-disc pl-5"><li>Sulitnya menemukan lawan tanding yang selevel.</li> <li>Kurangnya motivasi karena tidak ada hadiah atau insentif.</li> <li>Turnamen yang berbayar membuat banyak pemain malas ikut karena biaya
-          yang tidak sebanding dengan keuntungan.</li></ul></div> <div class="rounded-lg drop-shadow bg-white p-8 w-full"><h2 class="text-2xl font-semibold text-primary mb-4">Solusi dari tarkams</h2> <p class="mb-4">tarkams hadir dengan solusi yang memudahkan kamu untuk:</p> <ul class="list-disc pl-5"><li>Cari lawan tanding selevel, sehingga pertandingan lebih seru dan adil.</li> <li>Dapatkan hadiah (diamond) setiap kali kamu menang, yang bisa kamu
-          tukarkan dengan berbagai hadiah menarik.</li> <li>Ikuti liga dan turnamen untuk mengasah kemampuanmu dan naik peringkat.</li></ul> <p class="mb-4">Dengan model langganan yang berbeda antara pengguna gratis dan berbayar,
-        tarkams menawarkan cara yang seru dan mudah untuk terus aktif bermain
-        dan mendapatkan manfaat dari setiap pertandingan.</p></div> <div class="rounded-lg drop-shadow bg-white p-8 w-full"><h2 class="text-2xl font-semibold text-primary mb-4">Fitur Utama di tarkams</h2> <h3 class="text-xl font-semibold mb-2">Matchmaking</h3> <p class="mb-4">tarkams memudahkan kamu untuk menemukan lawan tanding yang sesuai dengan
-        level kemampuanmu.</p> <h3 class="text-xl font-semibold mb-2">Liga dan Turnamen</h3> <p class="mb-4">Kamu bisa bergabung di berbagai liga dan turnamen untuk uji kemampuanmu.
-        Tingkatkan peringkatmu di leaderboard dan tunjukkan bahwa kamu bisa jadi
-        yang terbaik.</p> <h3 class="text-xl font-semibold mb-2">Sistem Diamond</h3> <p class="mb-4">Setiap kali kamu menang, kamu akan mendapatkan diamond yang bisa
-        ditukarkan dengan berbagai hadiah menarik. Kamu bisa menggunakan diamond
-        untuk beli tiket pertandingan atau menukarnya dengan hadiah lainnya.</p> <h3 class="text-xl font-semibold mb-2">Model Langganan</h3> <p>tarkams menawarkan dua jenis pengguna: Gratis dan Berbayar, dengan
-        keuntungan yang berbeda.</p> <p>Pengguna Gratis: Mendapatkan jumlah tiket pertandingan terbatas per
-        bulan.</p> <p>Pengguna Berbayar: Mendapatkan lebih banyak tiket pertandingan dan
-        berbagai keuntungan tambahan lainnya.</p></div> <div class="rounded-lg drop-shadow bg-white p-8 w-full"><h2 class="text-2xl font-semibold text-primary mb-4">Potensi Masa Depan</h2> <p>tarkams tidak hanya berhenti di tenis. Kami akan memperluas platform ini
-        ke berbagai cabang olahraga lain, seperti bulu tangkis, golf, dan
-        olahraga lari. Kami percaya, dengan terus menambah olahraga dan fitur
-        baru, tarkams akan menjadi tempat utama bagi para penggemar olahraga
-        untuk berkumpul, berkompetisi, dan menang.</p></div> <div class="rounded-lg drop-shadow bg-white p-8 w-full"><h2 class="text-2xl font-semibold text-primary mb-4">Kesimpulan</h2> <p>tarkams hadir untuk menciptakan pengalaman olahraga yang lebih seru dan
-        kompetitif bagi semua pemain, baik pemula maupun yang sudah
-        berpengalaman. Dengan fitur matchmaking, liga dan turnamen, serta sistem
-        reward berbasis diamond, tarkams adalah tempat di mana kamu bisa
-        menantang dirimu dan mendapatkan hadiah nyata dari setiap kemenangan.</p></div> <div class="flex flex-col items-center space-y-4"><h2 class="text-3xl font-semibold text-center">Ayo, gabung di tarkams dan mulai bertanding!</h2> <div class="flex space-x-4"><button class=" rounded px-8 py-2 bg-primary text-white text-sm md:text-base hover:bg-primary-light"><span>Mulai Sekarang</span></button><!----></div></div></div></div><!----><!----><!----></main><!----> <!--[!--><!--]--><!----><!----></div><!----><!----></div><!----><!--]--> <!--[!--><!--]--><!--]-->
-			
-			<script>
-				{
-					__sveltekit_c64veh = {
-						base: new URL("..", location).pathname.slice(0, -1)
-					};
+    <div>
+      <!--[--><!--[--><!---->
+      <div class="flex justify-center mb-24 overflow-x-hidden">
+        <!---->
+        <div class="fixed max-w-[768px] w-full h-full bg-white"></div>
+        <!---->
+        <div class="max-w-[768px] w-full bg-white">
+          <!---->
+          <div class="absolute z-50 w-full max-w-[768px]">
+            <div class="p-4 justify-between h-16">
+              <!--[!-->
+              <div class="flex items-center w-full relative">
+                <!--[--><button class="text-primary absolute left-0">
+                  <svg
+                    width="1em"
+                    height="1em"
+                    viewBox="0 0 16 16"
+                    style="color: currentColor"
+                    stroke-width="0"
+                    fill="currentColor"
+                    stroke="currentColor"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <!---->
+                    <path
+                      fill-rule="evenodd"
+                      d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0"
+                    ></path>
+                    <!----></svg
+                  ><!----></button
+                ><!--]-->
+                <h1 class="text-primary flex-grow text-center">tarkams</h1>
+              </div>
+              <!--]-->
+            </div>
+          </div>
+          <!---->
+          <main class="relative mb-48 mt-16">
+            <!----><!----><!---->
+            <div class="relative flex flex-col items-center p-8">
+              <div class="flex flex-col space-y-16 items-center max-w-4xl">
+                <div class="flex flex-col items-center space-y-4">
+                  <h1 class="text-5xl font-bold text-center">Tentang Kami</h1>
+                </div>
+                <div class="rounded-lg drop-shadow bg-white p-8 w-full">
+                  <h2 class="text-2xl font-semibold text-primary mb-4">
+                    Ringkasan Eksekutif
+                  </h2>
+                  <p class="mb-4">
+                    tarkams adalah platform matchmaking olahraga yang awalnya
+                    berfokus pada tenis dan akan terus berkembang ke olahraga
+                    lain. Di sini, kamu bisa membuat dan bergabung dalam
+                    pertandingan, berkompetisi di liga, serta mengumpulkan
+                    tarkoin yang bisa kamu tukarkan dengan hadiah menarik.
+                  </p>
+                  <p class="mb-4">
+                    tarkams bertujuan untuk membuat olahraga jadi lebih seru,
+                    kompetitif, dan menguntungkan. Kami ingin mengubah cara
+                    pemain amatir menikmati olahraga kesukaan mereka, sekaligus
+                    memberikan kesempatan untuk mendapatkan reward lewat model
+                    langganan bagi pengguna gratis dan berbayar.
+                  </p>
+                </div>
+                <div class="rounded-lg drop-shadow bg-white p-8 w-full">
+                  <h2 class="text-2xl font-semibold text-primary mb-4">
+                    Visi dan Misi
+                  </h2>
+                  <h3 class="text-xl font-semibold mb-2">Visi</h3>
+                  <p class="mb-4">
+                    Menjadi platform utama yang menghubungkan atlet
+                    rekreasional, memberikan ruang tidak hanya untuk bertanding,
+                    tapi juga untuk mendapatkan hadiah, meningkatkan kemampuan,
+                    dan berpartisipasi dalam komunitas olahraga.
+                  </p>
+                  <h3 class="text-xl font-semibold mb-2">Misi</h3>
+                  <p>
+                    Menciptakan lingkungan olahraga yang berkelanjutan dan
+                    inklusif di mana semua pemain, baik pemula maupun
+                    berpengalaman, bisa terhubung, berkompetisi, dan mencapai
+                    pertumbuhan melalui olahraga.
+                  </p>
+                </div>
+                <div class="rounded-lg drop-shadow bg-white p-8 w-full">
+                  <h2 class="text-2xl font-semibold text-primary mb-4">
+                    Masalah yang Dihadapi
+                  </h2>
+                  <p class="mb-4">
+                    Banyak penggemar olahraga amatir yang kesulitan mencari
+                    lawan tanding yang selevel, terutama di wilayah seperti
+                    Indonesia, di mana turnamen dan liga belum banyak tersedia.
+                    Solusi yang ada saat ini juga sering kali tidak memberikan
+                    insentif atau hadiah yang berarti untuk partisipasi rutin.
+                  </p>
+                  <ul class="list-disc pl-5">
+                    <li>Sulitnya menemukan lawan tanding yang selevel.</li>
+                    <li>
+                      Kurangnya motivasi karena tidak ada hadiah atau insentif.
+                    </li>
+                    <li>
+                      Turnamen yang berbayar membuat banyak pemain malas ikut
+                      karena biaya yang tidak sebanding dengan keuntungan.
+                    </li>
+                  </ul>
+                </div>
+                <div class="rounded-lg drop-shadow bg-white p-8 w-full">
+                  <h2 class="text-2xl font-semibold text-primary mb-4">
+                    Solusi dari tarkams
+                  </h2>
+                  <p class="mb-4">
+                    tarkams hadir dengan solusi yang memudahkan kamu untuk:
+                  </p>
+                  <ul class="list-disc pl-5">
+                    <li>
+                      Cari lawan tanding selevel, sehingga pertandingan lebih
+                      seru dan adil.
+                    </li>
+                    <li>
+                      Dapatkan hadiah (tarkoin) setiap kali kamu menang, yang
+                      bisa kamu tukarkan dengan berbagai hadiah menarik.
+                    </li>
+                    <li>
+                      Ikuti liga dan turnamen untuk mengasah kemampuanmu dan
+                      naik peringkat.
+                    </li>
+                  </ul>
+                  <p class="mb-4">
+                    Dengan model langganan yang berbeda antara pengguna gratis
+                    dan berbayar, tarkams menawarkan cara yang seru dan mudah
+                    untuk terus aktif bermain dan mendapatkan manfaat dari
+                    setiap pertandingan.
+                  </p>
+                </div>
+                <div class="rounded-lg drop-shadow bg-white p-8 w-full">
+                  <h2 class="text-2xl font-semibold text-primary mb-4">
+                    Fitur Utama di tarkams
+                  </h2>
+                  <h3 class="text-xl font-semibold mb-2">Matchmaking</h3>
+                  <p class="mb-4">
+                    tarkams memudahkan kamu untuk menemukan lawan tanding yang
+                    sesuai dengan level kemampuanmu.
+                  </p>
+                  <h3 class="text-xl font-semibold mb-2">Liga dan Turnamen</h3>
+                  <p class="mb-4">
+                    Kamu bisa bergabung di berbagai liga dan turnamen untuk uji
+                    kemampuanmu. Tingkatkan peringkatmu di leaderboard dan
+                    tunjukkan bahwa kamu bisa jadi yang terbaik.
+                  </p>
+                  <h3 class="text-xl font-semibold mb-2">Sistem tarkoin</h3>
+                  <p class="mb-4">
+                    Setiap kali kamu menang, kamu akan mendapatkan tarkoin yang
+                    bisa ditukarkan dengan berbagai hadiah menarik. Kamu bisa
+                    menggunakan tarkoin untuk beli tiket pertandingan atau
+                    menukarnya dengan hadiah lainnya.
+                  </p>
+                  <h3 class="text-xl font-semibold mb-2">Model Langganan</h3>
+                  <p>
+                    tarkams menawarkan dua jenis pengguna: Gratis dan Berbayar,
+                    dengan keuntungan yang berbeda.
+                  </p>
+                  <p>
+                    Pengguna Gratis: Mendapatkan jumlah tiket pertandingan
+                    terbatas per bulan.
+                  </p>
+                  <p>
+                    Pengguna Berbayar: Mendapatkan lebih banyak tiket
+                    pertandingan dan berbagai keuntungan tambahan lainnya.
+                  </p>
+                </div>
+                <div class="rounded-lg drop-shadow bg-white p-8 w-full">
+                  <h2 class="text-2xl font-semibold text-primary mb-4">
+                    Potensi Masa Depan
+                  </h2>
+                  <p>
+                    tarkams tidak hanya berhenti di tenis. Kami akan memperluas
+                    platform ini ke berbagai cabang olahraga lain, seperti bulu
+                    tangkis, golf, dan olahraga lari. Kami percaya, dengan terus
+                    menambah olahraga dan fitur baru, tarkams akan menjadi
+                    tempat utama bagi para penggemar olahraga untuk berkumpul,
+                    berkompetisi, dan menang.
+                  </p>
+                </div>
+                <div class="rounded-lg drop-shadow bg-white p-8 w-full">
+                  <h2 class="text-2xl font-semibold text-primary mb-4">
+                    Kesimpulan
+                  </h2>
+                  <p>
+                    tarkams hadir untuk menciptakan pengalaman olahraga yang
+                    lebih seru dan kompetitif bagi semua pemain, baik pemula
+                    maupun yang sudah berpengalaman. Dengan fitur matchmaking,
+                    liga dan turnamen, serta sistem reward berbasis tarkoin,
+                    tarkams adalah tempat di mana kamu bisa menantang dirimu dan
+                    mendapatkan hadiah nyata dari setiap kemenangan.
+                  </p>
+                </div>
+                <div class="flex flex-col items-center space-y-4">
+                  <h2 class="text-3xl font-semibold text-center">
+                    Ayo, gabung di tarkams dan mulai bertanding!
+                  </h2>
+                  <div class="flex space-x-4">
+                    <button
+                      class="rounded px-8 py-2 bg-primary text-white text-sm md:text-base hover:bg-primary-light"
+                    >
+                      <span>Mulai Sekarang</span></button
+                    ><!---->
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!----><!----><!---->
+          </main>
+          <!---->
+          <!--[!--><!--]--><!----><!---->
+        </div>
+        <!----><!---->
+      </div>
+      <!----><!--]-->
+      <!--[!--><!--]--><!--]-->
 
-					const element = document.currentScript.parentElement;
+      <script>
+        {
+          __sveltekit_c64veh = {
+            base: new URL("..", location).pathname.slice(0, -1),
+          };
 
-					const data = [null,null];
+          const element = document.currentScript.parentElement;
 
-					Promise.all([
-						import("../_app/immutable/entry/start.DosobFdw.js"),
-						import("../_app/immutable/entry/app.BHLYVRw1.js")
-					]).then(([kit, app]) => {
-						kit.start(app, element, {
-							node_ids: [0, 8],
-							data,
-							form: null,
-							error: null
-						});
-					});
-				}
-			</script>
-		</div>
+          const data = [null, null];
+
+          Promise.all([
+            import("../_app/immutable/entry/start.DosobFdw.js"),
+            import("../_app/immutable/entry/app.BHLYVRw1.js"),
+          ]).then(([kit, app]) => {
+            kit.start(app, element, {
+              node_ids: [0, 8],
+              data,
+              form: null,
+              error: null,
+            });
+          });
+        }
+      </script>
+    </div>
   </body>
 </html>

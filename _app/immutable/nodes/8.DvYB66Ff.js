@@ -1,7 +1,7 @@
 import{h as y,a as u,t as p}from"../chunks/disclose-version.MfCLdoVM.js";import{p as f,a as x,$ as v,c as i,s as g,r as t}from"../chunks/runtime.CG4-oO5L.js";import{i as w}from"../chunks/lifecycle.hj5Ovsor.js";import{F as j}from"../chunks/filled-button.BioNeX4X.js";const _=!0,P=Object.freeze(Object.defineProperty({__proto__:null,prerender:_},Symbol.toStringTag,{value:"Module"}));var M=p('<meta title="tarkams" name="tarkams" content="tarkams">'),S=p(`<div class="relative flex flex-col items-center p-8"><div class="flex flex-col space-y-16 items-center max-w-4xl"><div class="flex flex-col items-center space-y-4"><h1 class="text-5xl font-bold text-center">Tentang Kami</h1></div> <div class="rounded-lg drop-shadow bg-white p-8 w-full"><h2 class="text-2xl font-semibold text-primary mb-4">Ringkasan Eksekutif</h2> <p class="mb-4">tarkams adalah platform matchmaking olahraga yang awalnya berfokus pada
         tenis dan akan terus berkembang ke olahraga lain. Di sini, kamu bisa
         membuat dan bergabung dalam pertandingan, berkompetisi di liga, serta
-        mengumpulkan diamond yang bisa kamu tukarkan dengan hadiah menarik.</p> <p class="mb-4">tarkams bertujuan untuk membuat olahraga jadi lebih seru, kompetitif,
+        mengumpulkan tarkoin yang bisa kamu tukarkan dengan hadiah menarik.</p> <p class="mb-4">tarkams bertujuan untuk membuat olahraga jadi lebih seru, kompetitif,
         dan menguntungkan. Kami ingin mengubah cara pemain amatir menikmati
         olahraga kesukaan mereka, sekaligus memberikan kesempatan untuk
         mendapatkan reward lewat model langganan bagi pengguna gratis dan
@@ -14,14 +14,14 @@ import{h as y,a as u,t as p}from"../chunks/disclose-version.MfCLdoVM.js";import{
         dan liga belum banyak tersedia. Solusi yang ada saat ini juga sering
         kali tidak memberikan insentif atau hadiah yang berarti untuk
         partisipasi rutin.</p> <ul class="list-disc pl-5"><li>Sulitnya menemukan lawan tanding yang selevel.</li> <li>Kurangnya motivasi karena tidak ada hadiah atau insentif.</li> <li>Turnamen yang berbayar membuat banyak pemain malas ikut karena biaya
-          yang tidak sebanding dengan keuntungan.</li></ul></div> <div class="rounded-lg drop-shadow bg-white p-8 w-full"><h2 class="text-2xl font-semibold text-primary mb-4">Solusi dari tarkams</h2> <p class="mb-4">tarkams hadir dengan solusi yang memudahkan kamu untuk:</p> <ul class="list-disc pl-5"><li>Cari lawan tanding selevel, sehingga pertandingan lebih seru dan adil.</li> <li>Dapatkan hadiah (diamond) setiap kali kamu menang, yang bisa kamu
+          yang tidak sebanding dengan keuntungan.</li></ul></div> <div class="rounded-lg drop-shadow bg-white p-8 w-full"><h2 class="text-2xl font-semibold text-primary mb-4">Solusi dari tarkams</h2> <p class="mb-4">tarkams hadir dengan solusi yang memudahkan kamu untuk:</p> <ul class="list-disc pl-5"><li>Cari lawan tanding selevel, sehingga pertandingan lebih seru dan adil.</li> <li>Dapatkan hadiah (tarkoin) setiap kali kamu menang, yang bisa kamu
           tukarkan dengan berbagai hadiah menarik.</li> <li>Ikuti liga dan turnamen untuk mengasah kemampuanmu dan naik peringkat.</li></ul> <p class="mb-4">Dengan model langganan yang berbeda antara pengguna gratis dan berbayar,
         tarkams menawarkan cara yang seru dan mudah untuk terus aktif bermain
         dan mendapatkan manfaat dari setiap pertandingan.</p></div> <div class="rounded-lg drop-shadow bg-white p-8 w-full"><h2 class="text-2xl font-semibold text-primary mb-4">Fitur Utama di tarkams</h2> <h3 class="text-xl font-semibold mb-2">Matchmaking</h3> <p class="mb-4">tarkams memudahkan kamu untuk menemukan lawan tanding yang sesuai dengan
         level kemampuanmu.</p> <h3 class="text-xl font-semibold mb-2">Liga dan Turnamen</h3> <p class="mb-4">Kamu bisa bergabung di berbagai liga dan turnamen untuk uji kemampuanmu.
         Tingkatkan peringkatmu di leaderboard dan tunjukkan bahwa kamu bisa jadi
-        yang terbaik.</p> <h3 class="text-xl font-semibold mb-2">Sistem Diamond</h3> <p class="mb-4">Setiap kali kamu menang, kamu akan mendapatkan diamond yang bisa
-        ditukarkan dengan berbagai hadiah menarik. Kamu bisa menggunakan diamond
+        yang terbaik.</p> <h3 class="text-xl font-semibold mb-2">Sistem tarkoin</h3> <p class="mb-4">Setiap kali kamu menang, kamu akan mendapatkan tarkoin yang bisa
+        ditukarkan dengan berbagai hadiah menarik. Kamu bisa menggunakan tarkoin
         untuk beli tiket pertandingan atau menukarnya dengan hadiah lainnya.</p> <h3 class="text-xl font-semibold mb-2">Model Langganan</h3> <p>tarkams menawarkan dua jenis pengguna: Gratis dan Berbayar, dengan
         keuntungan yang berbeda.</p> <p>Pengguna Gratis: Mendapatkan jumlah tiket pertandingan terbatas per
         bulan.</p> <p>Pengguna Berbayar: Mendapatkan lebih banyak tiket pertandingan dan
@@ -32,5 +32,5 @@ import{h as y,a as u,t as p}from"../chunks/disclose-version.MfCLdoVM.js";import{
         untuk berkumpul, berkompetisi, dan menang.</p></div> <div class="rounded-lg drop-shadow bg-white p-8 w-full"><h2 class="text-2xl font-semibold text-primary mb-4">Kesimpulan</h2> <p>tarkams hadir untuk menciptakan pengalaman olahraga yang lebih seru dan
         kompetitif bagi semua pemain, baik pemula maupun yang sudah
         berpengalaman. Dengan fitur matchmaking, liga dan turnamen, serta sistem
-        reward berbasis diamond, tarkams adalah tempat di mana kamu bisa
+        reward berbasis tarkoin, tarkams adalah tempat di mana kamu bisa
         menantang dirimu dan mendapatkan hadiah nyata dari setiap kemenangan.</p></div> <div class="flex flex-col items-center space-y-4"><h2 class="text-3xl font-semibold text-center">Ayo, gabung di tarkams dan mulai bertanding!</h2> <div class="flex space-x-4"><!></div></div></div></div>`);function E(k,b){f(b,!1);try{(function(a,n,h,c,d,e){a.hj=a.hj||function(){(a.hj.q=a.hj.q||[]).push(arguments)},a._hjSettings={hjid:5161229,hjsv:6},d=n.getElementsByTagName("head")[0],e=n.createElement("script"),e.async=1,e.src=h+a._hjSettings.hjid+c+a._hjSettings.hjsv,d.appendChild(e)})(window,document,"https://static.hotjar.com/c/hotjar-",".js?sv=")}catch(a){console.error(a)}w();var s=S();y(a=>{var n=M();v.title="tarkams",u(a,n)});var m=i(s),l=g(i(m),16),r=g(i(l),2),o=i(r);j(o,{label:"Mulai Sekarang"}),t(r),t(l),t(m),t(s),u(k,s),x()}export{E as component,P as universal};
