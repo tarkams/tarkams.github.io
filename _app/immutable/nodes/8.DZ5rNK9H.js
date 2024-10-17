@@ -1,0 +1,36 @@
+import{h as y,a as u,t as k}from"../chunks/disclose-version.MfCLdoVM.js";import{p as f,a as x,$ as v,c as i,s as g,r as t}from"../chunks/runtime.CG4-oO5L.js";import{i as w}from"../chunks/lifecycle.hj5Ovsor.js";import{F as j}from"../chunks/filled-button.BioNeX4X.js";const _=!0,P=Object.freeze(Object.defineProperty({__proto__:null,prerender:_},Symbol.toStringTag,{value:"Module"}));var M=k('<meta title="tarkams" name="tarkams" content="tarkams">'),S=k(`<div class="relative flex flex-col items-center p-8"><div class="flex flex-col space-y-16 items-center max-w-4xl"><div class="flex flex-col items-center space-y-4"><h1 class="text-5xl font-bold text-center">Tentang Kami</h1></div> <div class="rounded-lg drop-shadow bg-white p-8 w-full"><h2 class="text-2xl font-semibold text-primary mb-4">Ringkasan Eksekutif</h2> <p class="mb-4">tarkams adalah platform matchmaking olahraga yang awalnya berfokus pada
+        tenis dan akan terus berkembang ke olahraga lain. Di sini, kamu bisa
+        membuat dan bergabung dalam pertandingan, berkompetisi di liga, serta
+        mengumpulkan tarkoin yang bisa kamu tukarkan dengan hadiah menarik.</p> <p class="mb-4">tarkams bertujuan untuk membuat olahraga jadi lebih seru, kompetitif,
+        dan menguntungkan. Kami ingin mengubah cara pemain amatir menikmati
+        olahraga kesukaan mereka, sekaligus memberikan kesempatan untuk
+        mendapatkan reward lewat model langganan bagi pengguna gratis dan
+        berbayar.</p></div> <div class="rounded-lg drop-shadow bg-white p-8 w-full"><h2 class="text-2xl font-semibold text-primary mb-4">Visi dan Misi</h2> <h3 class="text-xl font-semibold mb-2">Visi</h3> <p class="mb-4">Menjadi platform utama yang menghubungkan atlet rekreasional, memberikan
+        ruang tidak hanya untuk bertanding, tapi juga untuk mendapatkan hadiah,
+        meningkatkan kemampuan, dan berpartisipasi dalam komunitas olahraga.</p> <h3 class="text-xl font-semibold mb-2">Misi</h3> <p>Menciptakan lingkungan olahraga yang berkelanjutan dan inklusif di mana
+        semua pemain, baik pemula maupun berpengalaman, bisa terhubung,
+        berkompetisi, dan mencapai pertumbuhan melalui olahraga.</p></div> <div class="rounded-lg drop-shadow bg-white p-8 w-full"><h2 class="text-2xl font-semibold text-primary mb-4">Masalah yang Dihadapi</h2> <p class="mb-4">Banyak penggemar olahraga amatir yang kesulitan mencari lawan tanding
+        yang selevel, terutama di wilayah seperti Indonesia, di mana turnamen
+        dan liga belum banyak tersedia. Solusi yang ada saat ini juga sering
+        kali tidak memberikan insentif atau hadiah yang berarti untuk
+        partisipasi rutin.</p> <ul class="list-disc pl-5"><li>Sulitnya menemukan lawan tanding yang selevel.</li> <li>Kurangnya motivasi karena tidak ada hadiah atau insentif.</li> <li>Turnamen yang berbayar membuat banyak pemain malas ikut karena biaya
+          yang tidak sebanding dengan keuntungan.</li></ul></div> <div class="rounded-lg drop-shadow bg-white p-8 w-full"><h2 class="text-2xl font-semibold text-primary mb-4">Solusi dari tarkams</h2> <p class="mb-4">tarkams hadir dengan solusi yang memudahkan kamu untuk:</p> <ul class="list-disc pl-5"><li>Cari lawan tanding selevel, sehingga pertandingan lebih seru dan adil.</li> <li>Dapatkan hadiah (tarkoin) setiap kali kamu menang, yang bisa kamu
+          tukarkan dengan berbagai hadiah menarik.</li> <li>Ikuti liga dan turnamen untuk mengasah kemampuanmu dan naik peringkat.</li></ul> <p class="mb-4">Dengan model langganan yang berbeda antara pengguna gratis dan berbayar,
+        tarkams menawarkan cara yang seru dan mudah untuk terus aktif bermain
+        dan mendapatkan manfaat dari setiap pertandingan.</p></div> <div class="rounded-lg drop-shadow bg-white p-8 w-full"><h2 class="text-2xl font-semibold text-primary mb-4">Fitur Utama di tarkams</h2> <h3 class="text-xl font-semibold mb-2">Matchmaking</h3> <p class="mb-4">tarkams memudahkan kamu untuk menemukan lawan tanding yang sesuai dengan
+        level kemampuanmu.</p> <h3 class="text-xl font-semibold mb-2">Liga dan Turnamen</h3> <p class="mb-4">Kamu bisa bergabung di berbagai liga dan turnamen untuk uji kemampuanmu.
+        Tingkatkan peringkatmu di leaderboard dan tunjukkan bahwa kamu bisa jadi
+        yang terbaik.</p> <h3 class="text-xl font-semibold mb-2">Sistem tarkoin</h3> <p class="mb-4">Setiap kali kamu menang, kamu akan mendapatkan tarkoin yang bisa
+        ditukarkan dengan berbagai hadiah menarik. Kamu bisa menggunakan tarkoin
+        untuk beli tiket pertandingan atau menukarnya dengan hadiah lainnya.</p> <h3 class="text-xl font-semibold mb-2">Model Langganan</h3> <p>tarkams menawarkan dua jenis pengguna: Gratis dan Berbayar, dengan
+        keuntungan yang berbeda.</p> <p>Pengguna Gratis: Mendapatkan jumlah tiket pertandingan terbatas per
+        bulan.</p> <p>Pengguna Berbayar: Mendapatkan lebih banyak tiket pertandingan dan
+        berbagai keuntungan tambahan lainnya.</p></div> <div class="rounded-lg drop-shadow bg-white p-8 w-full"><h2 class="text-2xl font-semibold text-primary mb-4">Potensi Masa Depan</h2> <p>tarkams tidak hanya berhenti di tenis. Kami akan memperluas platform ini
+        ke berbagai cabang olahraga lain, seperti bulu tangkis, golf, dan
+        olahraga lari. Kami percaya, dengan terus menambah olahraga dan fitur
+        baru, tarkams akan menjadi tempat utama bagi para penggemar olahraga
+        untuk berkumpul, berkompetisi, dan menang.</p></div> <div class="rounded-lg drop-shadow bg-white p-8 w-full"><h2 class="text-2xl font-semibold text-primary mb-4">Kesimpulan</h2> <p>tarkams hadir untuk menciptakan pengalaman olahraga yang lebih seru dan
+        kompetitif bagi semua pemain, baik pemula maupun yang sudah
+        berpengalaman. Dengan fitur matchmaking, liga dan turnamen, serta sistem
+        reward berbasis tarkoin, tarkams adalah tempat di mana kamu bisa
+        menantang dirimu dan mendapatkan hadiah nyata dari setiap kemenangan.</p></div> <div class="flex flex-col items-center space-y-4"><h2 class="text-3xl font-semibold text-center">Ayo, gabung di tarkams dan mulai bertanding!</h2> <div class="flex space-x-4"><!></div></div></div></div>`);function E(p,b){f(b,!1);try{(function(a,n,h,c,d,e){a.hj=a.hj||function(){(a.hj.q=a.hj.q||[]).push(arguments)},a._hjSettings={hjid:5161229,hjsv:6},d=n.getElementsByTagName("head")[0],e=n.createElement("script"),e.async=1,e.src=h+a._hjSettings.hjid+c+a._hjSettings.hjsv,d.appendChild(e)})(window,document,"https://static.hotjar.com/c/hotjar-",".js?sv=")}catch(a){console.error(a)}w();var s=S();y(a=>{var n=M();v.title="tarkams",u(a,n)});var r=i(s),m=g(i(r),16),l=g(i(m),2),o=i(l);j(o,{label:"Mulai Sekarang"}),t(l),t(m),t(r),t(s),u(p,s),x()}export{E as component,P as universal};
